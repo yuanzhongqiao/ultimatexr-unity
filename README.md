@@ -1,93 +1,94 @@
-# UltimateXR
-![Github](https://user-images.githubusercontent.com/5702147/197527335-7fea8987-44ed-4412-8304-63f28e291d60.png)
-
-**UltimateXR** is a professional-grade, free, open-source framework and toolkit for Unity.
-UltimateXR's goal is to simplify the development of virtual reality applications; from simulators to videogames and from simple prototypes to full AAA-scale projects.
-
-Main features:
-- Free and open-source under the MIT license.
-- Cross-device compatibility. Support for all major headsets.
-- State-of-the-art grab and manipulation mechanics.
-- Integrated hand pose editor.
-- Customizable full-body avatar representation with Inverse Kinematics.
-- Library of gender- and race-agnostic hands with special care on inclusion.
-- Support for multiple locomotion mechanics.
-- Advanced UI components including interaction and tweening.
-- Scalable architecture.
-- Clean code; fully documented using standard XML format.
-- Lots of tools, methods and extensions to make development easier.
-
-Soon! (v1.0.0)
-- Full multiplayer support with many networking integrations.
-- Serialization.
-- New improved manipulation mechanics.
-
-## Installation
-
-We provide the following ways to install **UltimateXR**:
-
-### Method 1: Using Package Manager for git users
-
-1. If UltimateXR was previously installed in /Assets using a .unitypackage, remove the /Assets/UltimateXR folder first
-
-2. Open the Package Manager using the Window menu -> Package Manager
-
-![OpenPackageManager](https://user-images.githubusercontent.com/5702147/197527726-7700f742-1055-4a66-8508-cc61ee529c08.jpg)
-
-3. Inside the Package Manager, click on the "+" button on the top left and select "Add package from git URL..."
-
-![AddFromGitURL](https://user-images.githubusercontent.com/5702147/197527755-cfc2a87c-980b-4ea3-96ee-34c385f79d86.JPG)
-
-4. Input the following URL: https://github.com/VRMADA/ultimatexr-unity.git and click Add.
-5. When the installation has completed, make sure to import the examples if it's your first time using UltimateXR.
-
-![Examples](https://user-images.githubusercontent.com/5702147/197527794-2f304b4d-0b36-4058-96d1-b7e4d389c0a7.jpg)
-
-### Method 2: Downloading and installing the .unitypackage
-
-1. Delete the previous version from /Assets/UltimateXR first.
-**Important!** Not removing the folder before updating may result in incorrect files remaining after installation.
-2. Download the latest package (.unitypackage file) found in https://github.com/VRMADA/ultimatexr-unity/releases
-3. Double click the file to import the package to your project.
-
-### Method 3: Through the official Unity Asset Store
-
-1. Delete the previous version from /Assets/UltimateXR first.
-**Important!** Not removing the folder before updating may result in incorrect files remaining after installation.
-2. Go to the [Asset Store](https://assetstore.unity.com/packages/slug/236782) and click Open in Unity to proceed with the installation.
-3. Remember to rate and review our asset if you liked it!
-
-## Learn UltimateXR
-
-### Installation and setup
-- [Getting Started](https://www.ultimatexr.io/guides/installation)
-
-### Supported platforms
-- [Overview](https://www.ultimatexr.io/guides/supported-platforms)
-- [Oculus](https://www.ultimatexr.io/guides/oculus)
-- [PicoXR](https://www.ultimatexr.io/guides/picoxr)
-- [SteamVR](https://www.ultimatexr.io/guides/steamvr)
-- [WaveXR](https://www.ultimatexr.io/guides/wavexr)
-- [Windows Mixed Reality](https://www.ultimatexr.io/guides/windows-mixed-reality)
-
-### Main components
-- [Avatar](https://www.ultimatexr.io/guides/avatar)
-- [Locomotion](https://www.ultimatexr.io/guides/locomotion)
-- [Hand Pose Editor](https://www.ultimatexr.io/guides/hand-pose-editor)
-- [Manipulation](https://www.ultimatexr.io/guides/manipulation)
-- [UI Interaction](https://www.ultimatexr.io/guides/ui-interaction)
-
-## UltimateXR API
-
-Unlock the full potential using the API.
-
-- [Overview](https://www.ultimatexr.io/guides/scripting)
-- [How do I?...](https://www.ultimatexr.io/guides/scripting-how-do-i)
-- [API Reference](https://www.ultimatexr.io/api/)
-
-## Community
-
-Join our community and get in touch with other developers.
-
-- [Discord](https://discord.gg/GXHdneaFjA)
-- [Twitter](https://twitter.com/ultimate_xr)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终极XR</font></font></h1><a id="user-content-ultimatexr" class="anchor" aria-label="永久链接：UltimateXR" href="#ultimatexr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5702147/197527335-7fea8987-44ed-4412-8304-63f28e291d60.png"><img src="https://user-images.githubusercontent.com/5702147/197527335-7fea8987-44ed-4412-8304-63f28e291d60.png" alt="吉图布" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UltimateXR</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个专业级、免费、开源的 Unity 框架和工具包。</font><font style="vertical-align: inherit;">UltimateXR的目标是简化虚拟现实应用程序的开发；</font><font style="vertical-align: inherit;">从模拟器到视频游戏，从简单的原型到完整的 AAA 级项目。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特点：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据 MIT 许可免费且开源。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨设备兼容性。</font><font style="vertical-align: inherit;">支持所有主流耳机。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最先进的抓取和操纵机制。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成的手势编辑器。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用反向运动学可定制的全身头像表示。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与性别和种族无关的手的图书馆，特别关注包容性。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持多种运动机制。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级 UI 组件，包括交互和补间。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展的架构。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干净的代码；</font><font style="vertical-align: inherit;">使用标准 XML 格式进行完整记录。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多工具、方法和扩展使开发变得更加容易。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很快！</font><font style="vertical-align: inherit;">(v1.0.0)</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的多人游戏支持与许多网络集成。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">序列化。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新改进的操纵机制。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们提供以下方式安装</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UltimateXR</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法一：git用户使用包管理器</font></font></h3><a id="user-content-method-1-using-package-manager-for-git-users" class="anchor" aria-label="永久链接：方法 1：为 git 用户使用包管理器" href="#method-1-using-package-manager-for-git-users"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果 UltimateXR 之前使用 .unitypackage 安装在 /Assets 中，请先删除 /Assets/UltimateXR 文件夹</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用“窗口”菜单 -&gt;“包管理器”打开包管理器</font></font></p>
+</li>
+</ol>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5702147/197527726-7700f742-1055-4a66-8508-cc61ee529c08.jpg"><img src="https://user-images.githubusercontent.com/5702147/197527726-7700f742-1055-4a66-8508-cc61ee529c08.jpg" alt="开放包管理器" style="max-width: 100%;"></a></p>
+<ol start="3" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在包管理器中，单击左上角的“+”按钮，然后选择“从 git URL 添加包...”</font></font></li>
+</ol>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5702147/197527755-cfc2a87c-980b-4ea3-96ee-34c385f79d86.JPG"><img src="https://user-images.githubusercontent.com/5702147/197527755-cfc2a87c-980b-4ea3-96ee-34c385f79d86.JPG" alt="添加来自GitURL" style="max-width: 100%;"></a></p>
+<ol start="4" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入以下 URL： https: </font></font><a href="https://github.com/VRMADA/ultimatexr-unity.git"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/VRMADA/ultimatexr-unity.git</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后单击“添加”。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装完成后，如果您是第一次使用 UltimateXR，请务必导入示例。</font></font></li>
+</ol>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5702147/197527794-2f304b4d-0b36-4058-96d1-b7e4d389c0a7.jpg"><img src="https://user-images.githubusercontent.com/5702147/197527794-2f304b4d-0b36-4058-96d1-b7e4d389c0a7.jpg" alt="例子" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法二：下载并安装.unitypackage</font></font></h3><a id="user-content-method-2-downloading-and-installing-the-unitypackage" class="anchor" aria-label="永久链接：方法 2：下载并安装 .unitypackage" href="#method-2-downloading-and-installing-the-unitypackage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先从 /Assets/UltimateXR 删除以前的版本。
+</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的！</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新之前不删除该文件夹可能会导致安装后保留不正确的文件。</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/VRMADA/ultimatexr-unity/releases"><font style="vertical-align: inherit;">下载https://github.com/VRMADA/ultimatexr-unity/releases</font></a><font style="vertical-align: inherit;">中找到的最新包（.unitypackage 文件）</font></font><a href="https://github.com/VRMADA/ultimatexr-unity/releases"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">双击该文件将包导入到您的项目中。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法三：通过Unity官方Asset Store</font></font></h3><a id="user-content-method-3-through-the-official-unity-asset-store" class="anchor" aria-label="固定链接：方法3：通过Unity官方Asset Store" href="#method-3-through-the-official-unity-asset-store"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先从 /Assets/UltimateXR 删除以前的版本。
+</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的！</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新之前不删除该文件夹可能会导致安装后保留不正确的文件。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转至</font></font><a href="https://assetstore.unity.com/packages/slug/236782" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Asset Store</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并单击“在 Unity 中打开”以继续安装。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您喜欢我们的资产，请记得对其进行评分和评论！</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习 UltimateXR</font></font></h2><a id="user-content-learn-ultimatexr" class="anchor" aria-label="永久链接：学习 UltimateXR" href="#learn-ultimatexr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装和设置</font></font></h3><a id="user-content-installation-and-setup" class="anchor" aria-label="永久链接：安装和设置" href="#installation-and-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.ultimatexr.io/guides/installation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的平台</font></font></h3><a id="user-content-supported-platforms" class="anchor" aria-label="永久链接：支持的平台" href="#supported-platforms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.ultimatexr.io/guides/supported-platforms" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/oculus" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">眼珠</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/picoxr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">皮克XR</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/steamvr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SteamVR</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/wavexr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">波XR</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/windows-mixed-reality" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 混合现实</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要成分</font></font></h3><a id="user-content-main-components" class="anchor" aria-label="永久链接：主要组件" href="#main-components"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.ultimatexr.io/guides/avatar" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿凡达</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/locomotion" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运动</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/hand-pose-editor" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手部姿势编辑器</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/manipulation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操纵</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/ui-interaction" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面交互</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终极XR API</font></font></h2><a id="user-content-ultimatexr-api" class="anchor" aria-label="永久链接：UltimateXR API" href="#ultimatexr-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 API 释放全部潜力。</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.ultimatexr.io/guides/scripting" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/guides/scripting-how-do-i" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何能？...</font></font></a></li>
+<li><a href="https://www.ultimatexr.io/api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API参考</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2><a id="user-content-community" class="anchor" aria-label="永久链接：社区" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的社区并与其他开发人员取得联系。</font></font></p>
+<ul dir="auto">
+<li><a href="https://discord.gg/GXHdneaFjA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐</font></font></a></li>
+<li><a href="https://twitter.com/ultimate_xr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特</font></font></a></li>
+</ul>
+</article></div>
